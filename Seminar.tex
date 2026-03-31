@@ -1,0 +1,85 @@
+\documentclass[conference, a4paper]{IEEEtran}
+
+% Zeichensatz und Spracheinstellungen für Deutsch
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+% Nützliche Pakete für IEEE-Papiere
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+
+\begin{document}
+
+\title{Titel des IEEE-Papers auf Deutsch\\
+{\footnotesize \textsuperscript{*}Anmerkung: Untertitel oder Projektname können hier stehen}}
+
+\author{
+\IEEEauthorblockN{1. Vorname Nachname}
+\IEEEauthorblockA{\textit{Abteilung / Fakultät} \\
+\textit{Name der Universität oder Firma}\\
+Stadt, Land \\
+E-Mail-Adresse}
+\and
+\IEEEauthorblockN{2. Vorname Nachname}
+\IEEEauthorblockA{\textit{Abteilung / Fakultät} \\
+\textit{Name der Universität oder Firma}\\
+Stadt, Land \\
+E-Mail-Adresse}
+}
+
+\maketitle
+
+\begin{abstract}
+Dieses Dokument ist eine Vorlage für ein IEEE-Konferenzpapier in deutscher Sprache. Die Zusammenfassung (Abstract) sollte kurz und prägnant die Problemstellung, die angewandte Methodik sowie die wichtigsten Ergebnisse und Schlussfolgerungen des Papiers umreißen.
+\end{abstract}
+
+\begin{IEEEkeywords}
+IEEE-Format, LaTeX, Vorlage, Deutsch, Seminar
+\end{IEEEkeywords}
+
+\section{Einleitung}
+Dieses Dokument zeigt, wie das klassische IEEE-Layout für deutschsprachige Arbeiten verwendet werden kann. Das Format besteht aus zwei Spalten, speziellen Überschriftenformatierungen und Vorgaben für Literaturverweise \cite{b1}.
+
+\section{Methodik}
+In diesem Abschnitt wird normalerweise die Vorgehensweise oder das Systemmodell beschrieben. Du kannst hier mathematische Formeln einfügen, wie zum Beispiel in Gleichung \eqref{eq:beispiel}.
+
+\begin{equation}
+E = mc^2 \label{eq:beispiel}
+\end{equation}
+
+Es können auch Aufzählungen verwendet werden:
+\begin{itemize}
+    \item Erster wichtiger Punkt.
+    \item Zweiter wichtiger Punkt zur Methodik.
+\end{itemize}
+
+\section{Ergebnisse}
+Hier präsentierst du deine Ergebnisse. Diagramme und Tabellen sollten zentriert eingefügt werden. Tabellenüberschriften stehen im IEEE-Format immer oberhalb der Tabelle.
+
+\begin{table}[htbp]
+\caption{Beispieltabelle}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Spalte 1} & \textbf{Spalte 2} & \textbf{Spalte 3} \\
+\hline
+Wert A & Wert B & Wert C \\
+\hline
+\end{tabular}
+\label{tab1}
+\end{center}
+\end{table}
+
+\section{Fazit}
+Das Fazit fasst die Ergebnisse der Arbeit zusammen und gibt eventuell einen Ausblick auf zukünftige Forschungsmöglichkeiten oder Erweiterungen.
+
+\begin{thebibliography}{00}
+\bibitem{b1} G. Eason, B. Noble, und I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
+\end{thebibliography}
+
+\end{document}
