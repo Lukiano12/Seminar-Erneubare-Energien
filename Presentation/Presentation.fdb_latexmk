@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1777369834.56418 "c:/Users/User/Desktop/Seminar IEEE/Presentation/Presentation.tex" "Presentation.pdf" "Presentation" 1777369836.89671 0
+["pdflatex"] 1777371487.94047 "c:/Users/User/Desktop/Seminar IEEE/Presentation/Presentation.tex" "Presentation.pdf" "Presentation" 1777371489.49 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1777368984 124174 2115c44b1644342a793886afc3935ba5 ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsi1095.pk" 1777368989 26868 9c081cb987b258e89ce15287cc8e6edb ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecss0600.pk" 1777368996 12340 41044a431aa9682f12a6e414aa60e733 ""
@@ -189,11 +189,11 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/translator/translator.sty" 1622471510 8765 56d370785f0143111ff9898b5adfe08e ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Presentation.aux" 1777369836 1477 7ca4c922444f1ebd20611b4b6bb7abc3 "pdflatex"
-  "Presentation.nav" 1777369836 835 b5c49ba28d3d2049d1773682fb2767a8 "pdflatex"
-  "Presentation.out" 1777369836 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Presentation.tex" 1777369833 4798 84d85eb954a74d7b01f12ff352e87d4f ""
-  "c:/Users/User/Desktop/Seminar IEEE/Presentation/Presentation.tex" 1777369833 4798 84d85eb954a74d7b01f12ff352e87d4f ""
+  "Presentation.aux" 1777371489 1477 7ca4c922444f1ebd20611b4b6bb7abc3 "pdflatex"
+  "Presentation.nav" 1777371489 835 b5c49ba28d3d2049d1773682fb2767a8 "pdflatex"
+  "Presentation.out" 1777371488 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Presentation.tex" 1777371487 4756 fd73cedd0f769dd12fb2504765e71ea0 ""
+  "c:/Users/User/Desktop/Seminar IEEE/Presentation/Presentation.tex" 1777371487 4756 fd73cedd0f769dd12fb2504765e71ea0 ""
   (generated)
   "Presentation.aux"
   "Presentation.log"
