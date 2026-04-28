@@ -1,0 +1,105 @@
+\documentclass[11pt]{beamer}
+
+% Standard-Theme (kann später z.B. zu 'metropolis' oder 'Boadilla' geändert werden)
+\usetheme{Madrid}
+\usecolortheme{default}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel} % Sprache: Deutsch
+
+% Titelinformationen
+\title[Generative KI im Paper]{Erfahrungen mit Generativer KI beim wissenschaftlichen Schreiben}
+\subtitle{Seminar-Beispiel: "Photosynthese - Mechanismen"}
+\author[L. Tadic]{Luka Tadic}
+\institute[THU]{Technische Hochschule Ulm (THU) \\ Electrical Energy Systems and Electromobility (M.Sc.)}
+\date{\today}
+
+\begin{document}
+
+% ---------------- Folie 1: Titelfolie ----------------
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% ---------------- Folie 2: Einleitung ----------------
+\begin{frame}{Einleitung \& Motivation}
+    \textbf{Kontext:}
+    \begin{itemize}
+        \item Verfassen eines Seminar-Papers über die technischen Aspekte natürlicher und künstlicher Photosynthese (z. B. im IEEE-Format).
+        \item Einsatz von Generativer KI (wie GitHub Copilot) als Schreib- und Codierassistenz.
+    \end{itemize}
+    \vspace{0.5cm}
+    \textbf{Ziele dieses Kurzvortrags:}
+    \begin{itemize}
+        \item Konkrete Anwendungsfälle aus dem Schreibprozess zeigen.
+        \item Bewertung der Werkzeuge: Stärken, Schwächen und Herausforderungen aufzeigen.
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Verwendete Ki-Tools}
+    \textbf{KI-Tools:}
+    \begin{itemize}
+            \item \textbf{GitHub Copilot:} Hauptsächlich für LaTeX-Formatierung, Strukturierung und das Generieren von Textabschnitten genutzt. Bietet auch kostenlosen Zugang für Studierende für weitere verschiedene KI-Modelle (ChatGPT, Gemini, Claude, ...).
+            \item \textbf{Gemini 3.1 Pro:} Ergänzend für das Brainstorming und Strukturbildung, Vorerfahrung aus vorherigen Projekten.
+    \end{itemize}
+    \vspace{0.5cm}
+\end{frame}
+
+% ---------------- Folie 3: Anwendungsfälle ----------------
+\begin{frame}{Wie habe ich die KI genutzt?}
+    Die KI fungierte hauptsächlich als technischer und sprachlicher Co-Pilot:
+    \vspace{0.3cm}
+    \begin{itemize}
+        \item \textbf{Struktur \& LaTeX-Setup:} \\
+              Schnelles Aufsetzen des Basisdokuments und Einbinden der richtigen Pakete (\textbackslash documentclass\{IEEEtran\}).
+        \item \textbf{Brainstorming von Analogien:} \\
+              Hilfe bei der Übertragung biologischer Konzepte in ingenieurwissenschaftliche Begriffe (z. B. Thylakoidmembran als p-n-Übergang).
+        \item \textbf{Organisation von Fehlern \& Platzhaltern:} \\
+              Generieren von Dummy-Quellen und Bild-Platzhaltern, bis das endgültige Material vorliegt.
+    \end{itemize}
+\end{frame}
+
+% ---------------- Folie 4: Positives ----------------
+\begin{frame}{Was lief gut? (Stärken)}
+    \begin{block}{Effizienzsteigerung}
+        Mühselige LaTeX-Formatierungen (wie das Zusammenstellen der \textit{thebibliography} oder komplexe Mathe/Figure-Umgebungen) wurden in Sekunden gelöst.
+    \end{block}
+    
+    \begin{block}{Sprache \& Formulierung}
+        Einfache Stichpunkte konnten schnell in flüssige, akademische englische Absätze ("technical engineering perspectives") umgewandelt werden.
+    \end{block}
+    
+    \begin{block}{Lernkurve}
+        Das Tool half mir nicht nur beim Tippen, sondern erklärte auch parallel Fachbegriffe.
+    \end{block}
+\end{frame}
+
+% ---------------- Folie 5: Herausforderungen ----------------
+\begin{frame}{Herausforderungen \& Schwächen}
+    \textbf{Die Nutzung verlangt weiterhin starke fachliche Kontrolle:}
+    \vspace{0.3cm}
+    \begin{itemize}
+        \item \textbf{Quellen-Halluzinationen:} \\
+              KI-Modelle erfinden mitunter sehr überzeugend aussehende Paper, die gar nicht existieren. Echte Literaturrecherche bleibt essenziell!
+        \item \textbf{Komplexität des Promptings:} \\
+              Oft erfordert es mehrere Anfragen und iterative Anpassungen, bis die KI den genauen Kontext (z. B. Schreib es technisch, nicht rein biologisch) verstanden hat.
+    \end{itemize}
+\end{frame}
+
+% ---------------- Folie 6: Fazit ----------------
+\begin{frame}{Fazit \& Ausblick}
+    \textbf{Zusammenfassung:}
+    \begin{itemize}
+        \item Generative KI ist ein extrem mächtiges Werkzeug, das Schreibblockaden abbaut und Zeit spart.
+        \item Sie ersetzt \textbf{nicht} das kritische Denken oder die wissenschaftliche Validierung.
+    \end{itemize}
+    \vspace{0.5cm}
+    \textbf{Ausblick:}
+    \begin{itemize}
+        \item Für kommende Abschlussarbeiten wird das strukturierte Prompts-Schreiben zu einer Kernkompetenz im wissenschaftlichen Arbeiten werden.
+    \end{itemize}
+\end{frame}
+
+\end{document}
