@@ -37,18 +37,18 @@ Photosynthesis, Electron Transport, Bio-inspired Engineering, Energy Conversion,
 \end{IEEEkeywords}
 
 \section{Introduction}
-One of the greatest challenges of our time is finding sustainable ways to generate and store energy. Modern technologies, like silicon solar panels, are very good at turning sunlight into electricity. However, electricity is hard to store in large quantities over long periods. Batteries are expensive and require rare materials \cite{PLATZHALTER_INTRO_1}. 
+One of the greatest challenges of our time is finding sustainable ways to generate and store energy. Modern technologies, like silicon solar panels, are very good at turning sunlight into electricity. However, electricity is hard to store in large quantities over long periods. Batteries are expensive and require rare materials \cite{lewisCosteffectiveSolarEnergy2007}. 
 
-Nature, on the other hand, solved this problem billions of years ago. Through photosynthesis, plants capture sunlight and use that energy to build stable, energy-rich chemical compounds (sugars), which can be stored indefinitely. From an engineering perspective, a leaf is essentially a self-repairing, highly efficient biological factory. It absorbs solar photons, separates positive and negative electrical charges, and uses those charges to drive chemical manufacturing \cite{PLATZHALTER_INTRO_2}.
+Nature, on the other hand, solved this problem billions of years ago. Through photosynthesis, plants capture sunlight and use that energy to build stable, energy-rich chemical compounds (sugars), which can be stored indefinitely. From an engineering perspective, a leaf is essentially a self-repairing, highly efficient biological factory. It absorbs solar photons, separates positive and negative electrical charges, and uses those charges to drive chemical manufacturing \cite{barberPhotosyntheticEnergyConversion2009}.
 
 To truly understand how we can replicate this in technology, we must first understand how it works in nature. This paper translates the biology of photosynthesis into the language of engineering. We will break down the process into easy-to-understand technical components: light absorbers, electrical circuits, mechanical motors, and catalytic reactors. By the end of this paper, the reader will understand both the mechanisms of natural photosynthesis and how these principles are applied to build artificial devices that generate clean fuels, such as green hydrogen.
 
 \section{Principles of Light Harvesting}
 \subsection{The Membrane as a Solar Module}
-The first step of energy conversion happens inside the plant's cells, specifically in a structure called the chloroplast. Inside the chloroplast, there are thin, flat membranes called thylakoid membranes. You can think of the thylakoid membrane as a biological solar panel or a p-n junction in a semiconductor \cite{PLATZHALTER_MEMBRANE}. It acts as an electrical insulator—a barrier separating the inside from the outside. Because it is an insulator, it allows the plant to build up an electrical voltage and a concentration difference across it, which is the foundation of storing energy.
+The first step of energy conversion happens inside the plant's cells, specifically in a structure called the chloroplast. Inside the chloroplast, there are thin, flat membranes called thylakoid membranes. You can think of the thylakoid membrane as a biological solar panel or a p-n junction in a semiconductor \cite{gustSolarFuelsArtificial2009}. It acts as an electrical insulator—a barrier separating the inside from the outside. Because it is an insulator, it allows the plant to build up an electrical voltage and a concentration difference across it, which is the foundation of storing energy.
 
 \subsection{Catching the Sun: Antenna Complexes}
-A technical solar module needs a large surface area to catch sunlight. Plants use networks of proteins and green pigments (like chlorophyll), which are called Light-Harvesting Complexes (LHC) \cite{PLATZHALTER_LHC}. Instead of giving every single "chemical reactor" its own direct light source, the LHC acts like a large satellite dish or a funnel. 
+A technical solar module needs a large surface area to catch sunlight. Plants use networks of proteins and green pigments (like chlorophyll), which are called Light-Harvesting Complexes (LHC) \cite{scholesLessonsNatureSolar2011}. Instead of giving every single "chemical reactor" its own direct light source, the LHC acts like a large satellite dish or a funnel. 
 
 When a particle of light (a photon) hits a pigment molecule in this outer dish, the molecule absorbs the energy. This creates an "exciton," which is simply an energized, excited state (similar to an electron-hole pair in a solar cell). Now, this energy needs to travel to the center of the system to be used. 
 
@@ -59,7 +59,7 @@ E_{FRET} = \frac{1}{1 + \left(\frac{r}{R_0}\right)^6}
 \label{eq:fret}
 \end{equation}
 
-Here, $R_0$ is a specific distance where the transfer is exactly 50\% efficient. Because the plant's pigments are packed so closely and ordered perfectly, the energy funnels into the reaction center with an efficiency close to 100\% \cite{PLATZHALTER_FRET}. Almost no light energy is lost in this initial step.
+Here, $R_0$ is a specific distance where the transfer is exactly 50\% efficient. Because the plant's pigments are packed so closely and ordered perfectly, the energy funnels into the reaction center with an efficiency close to 100\% \cite{flemingPrimaryStepsPhotosynthesis1994}. Almost no light energy is lost in this initial step.
 
 % --- BILD 1 ---
 \begin{figure*}[htbp]
@@ -74,7 +74,7 @@ Here, $R_0$ is a specific distance where the transfer is exactly 50\% efficient.
 Once the light energy reaches the center (the reaction center), the system converts the excited energy into actual moving electrons. From this point on, we can look at the process as a biological direct current (DC) circuit featuring pumps, wires, and power supplies.
 
 \subsection{Photosystem II: Splitting Water}
-The starting point of this circuit is a component called Photosystem II (PSII). The energy delivered by the light funnel causes the core of PSII to eject an electron. Because it lost an electron, PSII becomes "hungry" for a replacement, developing a very strong electrical pull (a redox potential of roughly +1.2 Volts) \cite{PLATZHALTER_1}. 
+The starting point of this circuit is a component called Photosystem II (PSII). The energy delivered by the light funnel causes the core of PSII to eject an electron. Because it lost an electron, PSII becomes "hungry" for a replacement, developing a very strong electrical pull (a redox potential of roughly +1.2 Volts) \cite{barberPhotosyntheticEnergyConversion2009}. 
 
 This voltage is strong enough to perform a remarkable feat: it rips water ($H_2O$) molecules apart to steal their electrons. This process is called photolysis. The overall chemical equation for this biological water splitting is:
 
@@ -83,11 +83,11 @@ This voltage is strong enough to perform a remarkable feat: it rips water ($H_2O
 \label{eq:water_oxidation}
 \end{equation}
 
-For every two water molecules split, the system gets four electrons ($e^-$) to power the circuit, leaves behind four protons ($H^+$), and releases oxygen ($O_2$) as "waste" into the air \cite{PLATZHALTER_2}. Technically, PSII is a perfectly functioning, solar-powered water electrolyzer.
+For every two water molecules split, the system gets four electrons ($e^-$) to power the circuit, leaves behind four protons ($H^+$), and releases oxygen ($O_2$) as "waste" into the air \cite{mcevoyWatersplittingChemistryPhotosystem2006}. Technically, PSII is a perfectly functioning, solar-powered water electrolyzer.
 
 This overall reaction looks simple on paper, but it presents a massive technical challenge. Stripping four electrons from two water molecules simultaneously requires overcoming a massive energetic barrier, while doing it sequentially would create highly reactive and destructive intermediate oxygen species (like hydrogen peroxide) that destroy the cell. 
 
-Nature solves this thermodynamic problem using a component called the Oxygen-Evolving Complex (OEC), which acts as a catalytic charge accumulator. Described biologically by the "Kok cycle," the OEC features a cluster of manganese and calcium atoms that can cycle through five different oxidation states ($S_0$ to $S_4$). Like a biological capacitor, it stores the positive charges from four successive photon-driven electron ejections before discharging them all at once to split the water molecule efficiently and safely \cite{PLATZHALTER_2}. Replicating this exact four-electron synchronized transfer remains one of the hardest challenges in designing artificial water-splitting catalysts today.
+Nature solves this thermodynamic problem using a component called the Oxygen-Evolving Complex (OEC), which acts as a catalytic charge accumulator. Described biologically by the "Kok cycle," the OEC features a cluster of manganese and calcium atoms that can cycle through five different oxidation states ($S_0$ to $S_4$). Like a biological capacitor, it stores the positive charges from four successive photon-driven electron ejections before discharging them all at once to split the water molecule efficiently and safely \cite{cramerTransmembraneTrafficCytochrome2006}. Replicating this exact four-electron synchronized transfer remains one of the hardest challenges in designing artificial water-splitting catalysts today.
 
 % --- BILD 2 (ZWEISPALTIG) ---
 \begin{figure*}[htbp]
@@ -100,25 +100,25 @@ Nature solves this thermodynamic problem using a component called the Oxygen-Evo
 % --------------------------
 
 \subsection{The "Wires" and the Second Voltage Boost}
-The extracted electrons now flow through the membrane. They are carried by a molecule called plastoquinone, which acts like a mobile biological wire. The electrons flow to a middle station called the Cytochrome $b_6f$ complex. As the electricity flows through it, Cytochrome uses that power to pump even more protons ($H^+$) across the membrane \cite{PLATZHALTER_3}.
+The extracted electrons now flow through the membrane. They are carried by a molecule called plastoquinone, which acts like a mobile biological wire. The electrons flow to a middle station called the Cytochrome $b_6f$ complex. As the electricity flows through it, Cytochrome uses that power to pump even more protons ($H^+$) across the membrane \cite{nelsonStructureFunctionPhotosystems2006}.
 
-Because the electrons lose energy while powering the pump, they need a second boost. They arrive at Photosystem I (PSI), which absorbs another photon of light to re-energize the electrons. This pushes the electrons to a very high energy level so they can be stored in a chemical carrier molecule called NADPH \cite{PLATZHALTER_4}. Because it requires two upward energy boosts, this whole mechanism is known to biologists as the "Z-scheme."
+Because the electrons lose energy while powering the pump, they need a second boost. They arrive at Photosystem I (PSI), which absorbs another photon of light to re-energize the electrons. This pushes the electrons to a very high energy level so they can be stored in a chemical carrier molecule called NADPH \cite{jungeATPSynthase2015}. Because it requires two upward energy boosts, this whole mechanism is known to biologists as the "Z-scheme."
 
 \subsection{ATP Synthase: A Biological Hydroelectric Dam}
 By constantly pumping protons ($H^+$) across the biological membrane, the system builds up high pressure on one side—exactly like water building up behind a hydroelectric dam.
 
-To relieve this pressure, the protons flow back across the membrane through a specialized enzyme called ATP Synthase. This enzyme is essentially a microscopic, mechanical rotary motor. As the protons flow through it, they push against a biological rotor, causing it to spin at thousands of revolutions per minute \cite{PLATZHALTER_5}. This mechanical spinning forces two molecules (ADP and phosphate) together to create ATP, the universal energy battery of all living cells. Here, electrical pressure is converted into mechanical rotation, and finally into chemical energy.
+To relieve this pressure, the protons flow back across the membrane through a specialized enzyme called ATP Synthase. This enzyme is essentially a microscopic, mechanical rotary motor. As the protons flow through it, they push against a biological rotor, causing it to spin at thousands of revolutions per minute \cite{bensonFollowingPathCarbon2002}. This mechanical spinning forces two molecules (ADP and phosphate) together to create ATP, the universal energy battery of all living cells. Here, electrical pressure is converted into mechanical rotation, and finally into chemical energy.
 
 \section{Process Efficiency and Carbon Fixation}
 The light reactions provide temporary batteries (ATP and NADPH). However, the plant needs long-term storage, which is accomplished in the next stage.
 
 \subsection{The Assembly Line: The Calvin Cycle}
-To an engineer, the Calvin cycle is an isothermal (constant temperature), continuous-flow chemical reactor. It does not need light to function. Instead, it takes the ATP and NADPH batteries produced by the circuit and uses them as power to capture carbon dioxide ($CO_2$) from the air. It stitches the $CO_2$ together to build complex sugars \cite{PLATZHALTER_6}. 
+To an engineer, the Calvin cycle is an isothermal (constant temperature), continuous-flow chemical reactor. It does not need light to function. Instead, it takes the ATP and NADPH batteries produced by the circuit and uses them as power to capture carbon dioxide ($CO_2$) from the air. It stitches the $CO_2$ together to build complex sugars \cite{anderssonCatalysisRegulationRubisco2008}. 
 
-This process relies heavily on an enzyme called RuBisCO. While important, RuBisCO is famously slow and inefficient, sometimes grabbing oxygen by mistake instead of $CO_2$, which wastes energy \cite{PLATZHALTER_7}. It is a slow assembly line, trading speed for the ability to build incredibly dense and stable fuel at normal outdoor temperatures.
+This process relies heavily on an enzyme called RuBisCO. While important, RuBisCO is famously slow and inefficient, sometimes grabbing oxygen by mistake instead of $CO_2$, which wastes energy \cite{ruhleTabulatedValuesShockley2016}. It is a slow assembly line, trading speed for the ability to build incredibly dense and stable fuel at normal outdoor temperatures.
 
 \subsection{Calculating the Efficiency Limits}
-In engineering, we measure how much input energy from the sun is actually converted into useful output energy. For standard silicon solar cells, physics dictates a hard theoretical limit called the Shockley-Queisser limit, which caps the maximum theoretical efficiency at about 33.7\% \cite{PLATZHALTER_8}.
+In engineering, we measure how much input energy from the sun is actually converted into useful output energy. For standard silicon solar cells, physics dictates a hard theoretical limit called the Shockley-Queisser limit, which caps the maximum theoretical efficiency at about 33.7\% \cite{zhuImprovingPhotosyntheticEfficiency2010}.
 
 For natural photosynthesis, the overall energy efficiency ($\eta$) can be defined simply as:
 
@@ -127,7 +127,7 @@ For natural photosynthesis, the overall energy efficiency ($\eta$) can be define
 \label{eq:efficiency}
 \end{equation}
 
-While plants are extremely clever, their overall efficiency is surprisingly low. Plants only absorb a fraction of the color spectrum (reflecting green light), lose energy as heat, and consume energy just to keep their cells alive. Although the theoretical maximum biological efficiency is around 11\%, most plants in the real world only convert 1\% to 2\% of the sun's energy into stored biomass \cite{PLATZHALTER_9}.
+While plants are extremely clever, their overall efficiency is surprisingly low. Plants only absorb a fraction of the color spectrum (reflecting green light), lose energy as heat, and consume energy just to keep their cells alive. Although the theoretical maximum biological efficiency is around 11\%, most plants in the real world only convert 1\% to 2\% of the sun's energy into stored biomass \cite{gratzelPhotoelectrochemicalCells2001}.
 
 % --- BILD-PLATZHALTER 3 (ZWEISPALTIG) ---
 \begin{figure*}[htbp]
@@ -157,7 +157,7 @@ Instead of making sugar, the primary goal of engineers is to use sunlight and wa
 \textbf{Water Splitting Catalyst} & Oxygen-Evolving Complex (Manganese-Calcium) & Transition Metal Oxides (e.g., Cobalt/Nickel Oxides) \\
 \textbf{Fuel Production Catalyst} & RuBisCO / Calvin Cycle Enzymes & Platinum, Ruthenium, or engineered alloys \\
 \textbf{Final Stored Energy} & Carbohydrates (Sugars / Biomass) & Green Hydrogen Gas ($H_2$) \\
-\textbf{Real-world Efficiency} & $\approx$ 1 -- 2\% & $>$ 10 -- 15\% \cite{PLATZHALTER_12} \\
+\textbf{Real-world Efficiency} & $\approx$ 1 -- 2\% & $>$ 10 -- 15\% \cite{gratzelPhotoelectrochemicalCells2001} \\
 \bottomrule
 \end{tabular}
 \label{tab:comparison}
@@ -165,19 +165,9 @@ Instead of making sugar, the primary goal of engineers is to use sunlight and wa
 \end{table*}
 
 \subsection{Photoelectrochemical Cells (PEC)}
-To mimic the plant's system, engineers have created Photoelectrochemical Cells (PECs). As shown in Table \ref{tab:comparison}, every biological component is replaced by an engineered material. Instead of fragile biological membranes, PECs use durable solid-state semiconductors like Titanium Dioxide ($TiO_2$) to absorb light and create the "excitons" \cite{PLATZHALTER_10}.
+To mimic the plant's system, engineers have created Photoelectrochemical Cells (PECs). As shown in Table \ref{tab:comparison}, every biological component is replaced by an engineered material. Instead of fragile biological membranes, PECs use durable solid-state semiconductors like Titanium Dioxide ($TiO_2$) to absorb light and create the "excitons" \cite{fujishimaElectrochemicalPhotolysisWater1972}.
 
-Because these artificial systems do not have biological enzymes to split water, engineers attach special metal catalysts to the surface of the semiconductors. On one side (the anode), metal oxides help split the water. On the other side (the cathode), materials like platinum help combine the protons and the electrical current to create pure hydrogen gas \cite{PLATZHALTER_11}.
-
-% --- BILD-PLATZHALTER 4 (ZWEISPALTIG) ---
-%\begin{figure*}[htbp]
-   % \centering
-    %\includegraphics[width=0.9\textwidth]{images/natural_vs_artificial_leaf.png}
-    %\vspace{0.2cm}
-    %\caption{Systematic comparison between a natural plant cell and an artificial photoelectrochemical tandem cell designed for direct solar fuel generation.}
-    %\label{fig:artificial}
-%\end{figure*}
-% --------------------------
+Because these artificial systems do not have biological enzymes to split water, engineers attach special metal catalysts to the surface of the semiconductors. On one side (the anode), metal oxides help split the water. On the other side (the cathode), materials like platinum help combine the protons and the electrical current to create pure hydrogen gas \cite{noceraArtificialLeaf2012}.
 
 \subsection{Bandgap Engineering and Thermodynamics}
 For a PEC to work, the semiconductor materials cannot be chosen at random. The physics of the system dictate strict thermodynamic requirements. The absolute minimum voltage required to split water into hydrogen and oxygen at room temperature is $1.23\text{ V}$. However, due to kinetic barriers and resistance in the artificial system (known as overpotentials), a practical driving voltage of $1.6\text{ V}$ to $2.0\text{ V}$ is required \cite{PLATZHALTER_13}.
@@ -207,25 +197,8 @@ While plant efficiency is constrained by biology, these mechanisms provide the u
 However, major engineering challenges remain before these artificial systems can power our cities. Future research must focus on replacing expensive catalysts like platinum with cheaper, widely available materials. Furthermore, technical components must be designed to resist corrosion in water over many years \cite{PLATZHALTER_13}. If these hurdles are overcome, artificial photosynthesis holds the key to solving the global energy storage dilemma, providing a clean, sustainable fuel cycle inspired completely by leaves.
 
 % Temporäres manuelles Verzeichnis
-\begin{thebibliography}{00}
-\bibitem{PLATZHALTER_INTRO_1} Dummy Quelle Intro 1.
-\bibitem{PLATZHALTER_INTRO_2} Dummy Quelle Intro 2.
-\bibitem{PLATZHALTER_MEMBRANE} Dummy Quelle Membran.
-\bibitem{PLATZHALTER_LHC} Dummy Quelle Lichtsammelkomplex.
-\bibitem{PLATZHALTER_FRET} Dummy Quelle FRET.
-\bibitem{PLATZHALTER_1} Barber, J. "Photosystem II: an enzyme of global significance." 2006.
-\bibitem{PLATZHALTER_2} Umena, Y., et al. "Crystal structure of oxygen-evolving photosystem II..." 2011.
-\bibitem{PLATZHALTER_3} Cramer, W. A., et al. "Structure and function of photosynthetic cytochrome bc complexes." 2006.
-\bibitem{PLATZHALTER_4} Nelson, N., \& Yocum, C. F. "Structure and function of photosystems I and II." 2006.
-\bibitem{PLATZHALTER_5} Junge, W., \& Nelson, N. "ATP synthase." 2015.
-\bibitem{PLATZHALTER_6} Blankenship, R. E. "Molecular Mechanisms of Photosynthesis." 2014.
-\bibitem{PLATZHALTER_7} Andersson, I. "Catalysis and regulation in Rubisco." 2008.
-\bibitem{PLATZHALTER_8} Shockley, W., \& Queisser, H. J. "Detailed balance limit of efficiency of p-n junction solar cells." 1961.
-\bibitem{PLATZHALTER_9} Zhu, X. G., et al. "Improving photosynthetic efficiency for greater yield." 2010.
-\bibitem{PLATZHALTER_10} Fujishima, A., \& Honda, K. "Electrochemical photolysis of water at a semiconductor electrode." Nature, 1972.
-\bibitem{PLATZHALTER_11} Nocera, D. G. "The artificial leaf." Accounts of Chemical Research, 2012.
-\bibitem{PLATZHALTER_12} Grätzel, M. "Photoelectrochemical cells." Nature, 2001.
-\bibitem{PLATZHALTER_13} Lewis, N. S. "Research opportunities to advance solar energy utilization." Science, 2016.
-\end{thebibliography}
+
+\bibliographystyle{IEEEtran}
+\bibliography{quellen}
 
 \end{document}
