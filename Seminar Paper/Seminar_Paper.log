@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.4)  5 MAY 2026 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.4)  6 MAY 2026 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,8 +252,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box56
-)
-No file Seminar_Paper.aux.
+) (Seminar_Paper.aux)
 \openout1 = `Seminar_Paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -270,6 +269,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
+
 -- Lines per column: 56 (exact).
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -299,22 +299,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Citation `PLATZHALTER_INTRO_1' on page 1 undefined on input line 40.
-
-
-LaTeX Warning: Citation `PLATZHALTER_INTRO_2' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation `PLATZHALTER_MEMBRANE' on page 1 undefined on input line 48.
-
-
-
-
-LaTeX Warning: Citation `PLATZHALTER_LHC' on page 1 undefined on input line 51.
-
-
-LaTeX Warning: Citation `PLATZHALTER_FRET' on page 1 undefined on input line 62.
-
 <images/funnel.png, id=1, 1678.27pt x 944.52875pt>
 File: images/funnel.png Graphic file (type png)
 <use images/funnel.png>
@@ -327,120 +311,27 @@ Package pdftex.def Info: images/funnel.png  used on input line 67.
 
 ]
 
-LaTeX Warning: Citation `PLATZHALTER_1' on page 2 undefined on input line 77.
-
-
-LaTeX Warning: Citation `PLATZHALTER_2' on page 2 undefined on input line 86.
-
-
-LaTeX Warning: Citation `PLATZHALTER_2' on page 2 undefined on input line 90.
-
-
-
 <images/circuit.png, id=16, 1541.76pt x 1027.84pt>
 File: images/circuit.png Graphic file (type png)
 <use images/circuit.png>
 Package pdftex.def Info: images/circuit.png  used on input line 95.
 (pdftex.def)             Requested size: 490.19843pt x 326.79823pt.
 
-LaTeX Warning: Citation `PLATZHALTER_3' on page 2 undefined on input line 103.
-
-
-LaTeX Warning: Citation `PLATZHALTER_4' on page 2 undefined on input line 105.
-
-
-LaTeX Warning: Citation `PLATZHALTER_5' on page 2 undefined on input line 110.
-
-
 
 [2 <./images/funnel.png (PNG copy)>]
 
-LaTeX Warning: Citation `PLATZHALTER_6' on page 3 undefined on input line 116.
+<images/efficiency.png, id=22, 1541.76pt x 1027.84pt>
+File: images/efficiency.png Graphic file (type png)
+<use images/efficiency.png>
+Package pdftex.def Info: images/efficiency.png  used on input line 135.
+(pdftex.def)             Requested size: 464.39685pt x 309.59338pt.
 
-
-LaTeX Warning: Citation `PLATZHALTER_7' on page 3 undefined on input line 118.
-
-
-
-
-LaTeX Warning: Citation `PLATZHALTER_8' on page 3 undefined on input line 121.
-
-
-LaTeX Warning: Citation `PLATZHALTER_9' on page 3 undefined on input line 130.
-
-
-LaTeX Warning: File `images/efficiency.png' not found on input line 135.
-
-
-c:/Users/User/Desktop/Seminar IEEE/Seminar Paper/Seminar_Paper.tex:135: Package pdftex.def Error: File `images/efficiency.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...dth=0.9\textwidth]{images/efficiency.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 135.
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
 
 [3 <./images/circuit.png (PNG copy)>]
 
-LaTeX Warning: Citation `PLATZHALTER_12' on page 4 undefined on input line 160.
 
 
-LaTeX Warning: Reference `tab:comparison' on page 4 undefined on input line 168.
-
-
-LaTeX Warning: Citation `PLATZHALTER_10' on page 4 undefined on input line 168.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-
-LaTeX Warning: Citation `PLATZHALTER_11' on page 4 undefined on input line 170.
-
-
-LaTeX Warning: File `images/natural_vs_artificial_leaf.png' not found on input line 175.
-
-
-c:/Users/User/Desktop/Seminar IEEE/Seminar Paper/Seminar_Paper.tex:175: Package pdftex.def Error: File `images/natural_vs_artificial_leaf.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175 ...h]{images/natural_vs_artificial_leaf.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[4]
-
-LaTeX Warning: Citation `PLATZHALTER_13' on page 5 undefined on input line 183.
-
-
-LaTeX Warning: Citation `PLATZHALTER_12' on page 5 undefined on input line 195.
-
-
-
-
-LaTeX Warning: Citation `PLATZHALTER_12' on page 5 undefined on input line 200.
-
-
-LaTeX Warning: Citation `PLATZHALTER_13' on page 5 undefined on input line 207.
-
-
-
-[5]
+[4 <./images/efficiency.png (PNG copy)>]
 
 
 ** Conference Paper **
@@ -455,31 +346,24 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[6] (Seminar_Paper.aux)
+[5] (Seminar_Paper.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4395 strings out of 473682
- 71096 string characters out of 5719692
- 475447 words of memory out of 5000000
- 27434 multiletter control sequences out of 15000+600000
- 599351 words of font info for 113 fonts, out of 8000000 for 9000
+ 4305 strings out of 473682
+ 68455 string characters out of 5719692
+ 476684 words of memory out of 5000000
+ 27348 multiletter control sequences out of 15000+600000
+ 597729 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,940b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Seminar_Paper.pdf (6 pages, 4195615 bytes).
+ 57i,11n,65p,940b,309s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Seminar_Paper.pdf (5 pages, 5836653 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
