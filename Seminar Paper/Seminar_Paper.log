@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.4)  7 MAY 2026 10:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.4)  7 MAY 2026 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -447,10 +447,6 @@ Package pdftex.def Info: images/efficiency.png  used on input line 133.
 
 [3 <./images/circuit.png (PNG copy)>]
 
-LaTeX Warning: Citation `PLATZHALTER_13' on page 4 undefined on input line 171.
-
-
-
 
 
 [4 <./images/efficiency.png (PNG copy)>]
@@ -480,23 +476,19 @@ Before submitting the final camera ready copy, remember to:
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Seminar_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: 8E5B5C4308181B28D4DB5C2B275B5654;4131.
  ) 
 Here is how much of TeX's memory you used:
- 11466 strings out of 473682
- 180723 string characters out of 5719692
+ 11464 strings out of 473682
+ 180701 string characters out of 5719692
  599899 words of memory out of 5000000
- 34351 multiletter control sequences out of 15000+600000
- 598387 words of font info for 110 fonts, out of 8000000 for 9000
+ 34350 multiletter control sequences out of 15000+600000
+ 597280 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,940b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Seminar_Paper.pdf (6 pages, 5858159 bytes).
+Output written on Seminar_Paper.pdf (6 pages, 5857753 bytes).
 PDF statistics:
  241 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)

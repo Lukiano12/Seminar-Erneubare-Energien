@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex Seminar_Paper"] 1778142740.56618 "Seminar_Paper.aux" "Seminar_Paper.bbl" "Seminar_Paper" 1778142742.3353 0
-  "./quellen.bib" 1778138537 40402 7b30ab8a6d669687ddfaf3abffa697e7 ""
+["bibtex Seminar_Paper"] 1778143215.84434 "Seminar_Paper.aux" "Seminar_Paper.bbl" "Seminar_Paper" 1778143217.48002 0
+  "./quellen.bib" 1778143195 40402 7b30ab8a6d669687ddfaf3abffa697e7 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "Seminar_Paper.aux" 1778142741 7074 87f426afdedc34c445413fd207b2489d "pdflatex"
+  "Seminar_Paper.aux" 1778143216 7048 7ea0d6692d861e6664c3fa4fdd4bd533 "pdflatex"
   (generated)
   "Seminar_Paper.bbl"
   "Seminar_Paper.blg"
   (rewritten before read)
-["pdflatex"] 1778142740.99804 "c:/Users/User/Desktop/Seminar IEEE/Seminar Paper/Seminar_Paper.tex" "Seminar_Paper.pdf" "Seminar_Paper" 1778142742.33619 0
+["pdflatex"] 1778143216.13515 "c:/Users/User/Desktop/Seminar IEEE/Seminar Paper/Seminar_Paper.tex" "Seminar_Paper.pdf" "Seminar_Paper" 1778143217.48068 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1777993466 124174 2115c44b1644342a793886afc3935ba5 ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1733303329 11986437 04ea1965ccaeb7f6bc9dffd19461b614 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -111,11 +111,11 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "IEEEtran.cls" 1776254688 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "Seminar_Paper.aux" 1778142741 7074 87f426afdedc34c445413fd207b2489d "pdflatex"
-  "Seminar_Paper.bbl" 1778142740 4276 09d871e6d8e6001f10a4d47d3c425634 "bibtex Seminar_Paper"
-  "Seminar_Paper.out" 1778142741 4131 8e5b5c4308181b28d4db5c2b275b5654 "pdflatex"
-  "Seminar_Paper.tex" 1778142737 21039 7b42558920e0f36e762bfd0657b1b816 ""
-  "c:/Users/User/Desktop/Seminar IEEE/Seminar Paper/Seminar_Paper.tex" 1778142737 21039 7b42558920e0f36e762bfd0657b1b816 ""
+  "Seminar_Paper.aux" 1778143216 7048 7ea0d6692d861e6664c3fa4fdd4bd533 "pdflatex"
+  "Seminar_Paper.bbl" 1778143216 4276 09d871e6d8e6001f10a4d47d3c425634 "bibtex Seminar_Paper"
+  "Seminar_Paper.out" 1778143216 4131 8e5b5c4308181b28d4db5c2b275b5654 "pdflatex"
+  "Seminar_Paper.tex" 1778143213 21017 29c2fac5bc6fd84b7bef9fdcba1963f3 ""
+  "c:/Users/User/Desktop/Seminar IEEE/Seminar Paper/Seminar_Paper.tex" 1778143213 21017 29c2fac5bc6fd84b7bef9fdcba1963f3 ""
   "images/circuit.png" 1777997054 1674144 a5ec4bb29429ffc2386c1acd12752418 ""
   "images/efficiency.png" 1778059037 1657762 e46e8e5648e255456f7fa2da2213abe3 ""
   "images/funnel.png" 1777995728 2332307 ff316d0407f6e4436c2073d1376a7cc9 ""
