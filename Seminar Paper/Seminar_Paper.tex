@@ -18,7 +18,7 @@
 \title{Photosynthesis - Mechanisms}
 
 \author{\IEEEauthorblockN{Luka Tadic}
-\IEEEauthorblockA{\textit{Electrical Energy Systems and Electromobility (M.Sc.)} \\
+\IEEEauthorblockA{\textit{Electrical Energy Systems and Electromobility (M.Eng.)} \\
 \textit{Technische Hochschule Ulm (THU)}\\
 Ulm, Germany \\
 tadilu01@thu.de} 
@@ -144,10 +144,16 @@ The ultimate goal of studying photosynthesis is not just to understand plants, b
 
 Instead of making sugar, the primary goal of engineers is to use sunlight and water to produce green hydrogen ($H_2$), a clean-burning fuel for the future.
 
+\subsection{Photoelectrochemical Cells (PEC)}
+To mimic the plant's system, engineers have created Photoelectrochemical Cells (PECs). As shown in Table \ref{tab:comparison}, every biological component is replaced by an engineered material. Instead of fragile biological membranes, PECs use durable solid-state semiconductors like Titanium Dioxide ($TiO_2$) to absorb light and create the "excitons" \cite{fujishimaElectrochemicalPhotolysisWater1972}.
+
+Because these artificial systems do not have biological enzymes to split water, engineers attach special metal catalysts to the surface of the semiconductors. On one side (the anode), metal oxides help split the water. On the other side (the cathode), materials like platinum help combine the protons and the electrical current to create pure hydrogen gas \cite{noceraArtificialLeaf2012}.
+
+% -------- TABELLE HIER EINFÜGEN --------
 \begin{table*}[htbp]
 \caption{Systematic Comparison: Natural Photosynthesis vs. Artificial Photoelectrochemical Cells (PEC)}
 \begin{center}
-\renewcommand{\arraystretch}{1.3} % Zellen etwas höher machen für bessere Lesbarkeit
+\renewcommand{\arraystretch}{1.3} 
 \begin{tabular}{p{3.5cm} p{6cm} p{6cm}}
 \toprule
 \textbf{System Component} & \textbf{Natural Leaf Element} & \textbf{Artificial Counterpart (PEC)} \\
@@ -163,11 +169,7 @@ Instead of making sugar, the primary goal of engineers is to use sunlight and wa
 \label{tab:comparison}
 \end{center}
 \end{table*}
-
-\subsection{Photoelectrochemical Cells (PEC)}
-To mimic the plant's system, engineers have created Photoelectrochemical Cells (PECs). As shown in Table \ref{tab:comparison}, every biological component is replaced by an engineered material. Instead of fragile biological membranes, PECs use durable solid-state semiconductors like Titanium Dioxide ($TiO_2$) to absorb light and create the "excitons" \cite{fujishimaElectrochemicalPhotolysisWater1972}.
-
-Because these artificial systems do not have biological enzymes to split water, engineers attach special metal catalysts to the surface of the semiconductors. On one side (the anode), metal oxides help split the water. On the other side (the cathode), materials like platinum help combine the protons and the electrical current to create pure hydrogen gas \cite{noceraArtificialLeaf2012}.
+% ---------------------------------------
 
 \subsection{Bandgap Engineering and Thermodynamics}
 For a PEC to work, the semiconductor materials cannot be chosen at random. The physics of the system dictate strict thermodynamic requirements. The absolute minimum voltage required to split water into hydrogen and oxygen at room temperature is $1.23\text{ V}$. However, due to kinetic barriers and resistance in the artificial system (known as overpotentials), a practical driving voltage of $1.6\text{ V}$ to $2.0\text{ V}$ is required.
