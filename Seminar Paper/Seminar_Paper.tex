@@ -87,7 +87,7 @@ For every two water molecules split, the system gets four electrons ($e^-$) to p
 
 This overall reaction looks simple on paper, but it presents a massive technical challenge. Stripping four electrons from two water molecules simultaneously requires overcoming a massive energetic barrier, while doing it sequentially would create highly reactive and destructive intermediate oxygen species (like hydrogen peroxide) that destroy the cell. 
 
-Nature solves this thermodynamic problem using a component called the Oxygen-Evolving Complex (OEC), which acts as a catalytic charge accumulator. Described biologically by the "Kok cycle," the OEC features a cluster of manganese and calcium atoms that can cycle through five different oxidation states ($S_0$ to $S_4$). Like a biological capacitor, it stores the positive charges from four successive photon-driven electron ejections before discharging them all at once to split the water molecule efficiently and safely \cite{cramerTransmembraneTrafficCytochrome2006}. Replicating this exact four-electron synchronized transfer remains one of the hardest challenges in designing artificial water-splitting catalysts today.
+Nature solves this thermodynamic problem using a component called the Oxygen-Evolving Complex (OEC), which acts as a catalytic charge accumulator. Described biologically by the "Kok cycle," the OEC features a cluster of manganese and calcium atoms that can cycle through five different oxidation states ($S_0$ to $S_4$). Like a biological capacitor, it stores the positive charges from four successive photon-driven electron ejections before discharging them all at once to split the water molecule efficiently and safely \cite{mcevoyWatersplittingChemistryPhotosystem2006}. Replicating this exact four-electron synchronized transfer remains one of the hardest challenges in designing artificial water-splitting catalysts today.
 
 % --- BILD 2 (ZWEISPALTIG) ---
 \begin{figure*}[htbp]
@@ -100,25 +100,25 @@ Nature solves this thermodynamic problem using a component called the Oxygen-Evo
 % --------------------------
 
 \subsection{The "Wires" and the Second Voltage Boost}
-The extracted electrons now flow through the membrane. They are carried by a molecule called plastoquinone, which acts like a mobile biological wire. The electrons flow to a middle station called the Cytochrome $b_6f$ complex. As the electricity flows through it, Cytochrome uses that power to pump even more protons ($H^+$) across the membrane \cite{nelsonStructureFunctionPhotosystems2006}.
+The extracted electrons now flow through the membrane. They are carried by a molecule called plastoquinone, which acts like a mobile biological wire. The electrons flow to a middle station called the Cytochrome $b_6f$ complex. As the electricity flows through it, Cytochrome uses that power to pump even more protons ($H^+$) across the membrane \cite{cramerTransmembraneTrafficCytochrome2006}.
 
-Because the electrons lose energy while powering the pump, they need a second boost. They arrive at Photosystem I (PSI), which absorbs another photon of light to re-energize the electrons. This pushes the electrons to a very high energy level so they can be stored in a chemical carrier molecule called NADPH \cite{jungeATPSynthase2015}. Because it requires two upward energy boosts, this whole mechanism is known to biologists as the "Z-scheme."
+Because the electrons lose energy while powering the pump, they need a second boost. They arrive at Photosystem I (PSI), which absorbs another photon of light to re-energize the electrons. This pushes the electrons to a very high energy level so they can be stored in a chemical carrier molecule called NADPH \cite{nelsonStructureFunctionPhotosystems2006}. Because it requires two upward energy boosts, this whole mechanism is known to biologists as the "Z-scheme."
 
 \subsection{ATP Synthase: A Biological Hydroelectric Dam}
 By constantly pumping protons ($H^+$) across the biological membrane, the system builds up high pressure on one side—exactly like water building up behind a hydroelectric dam.
 
-To relieve this pressure, the protons flow back across the membrane through a specialized enzyme called ATP Synthase. This enzyme is essentially a microscopic, mechanical rotary motor. As the protons flow through it, they push against a biological rotor, causing it to spin at thousands of revolutions per minute \cite{bensonFollowingPathCarbon2002}. This mechanical spinning forces two molecules (ADP and phosphate) together to create ATP, the universal energy battery of all living cells. Here, electrical pressure is converted into mechanical rotation, and finally into chemical energy.
+To relieve this pressure, the protons flow back across the membrane through a specialized enzyme called ATP Synthase. This enzyme is essentially a microscopic, mechanical rotary motor. As the protons flow through it, they push against a biological rotor, causing it to spin at thousands of revolutions per minute \cite{jungeATPSynthase2015}. This mechanical spinning forces two molecules (ADP and phosphate) together to create ATP, the universal energy battery of all living cells. Here, electrical pressure is converted into mechanical rotation, and finally into chemical energy.
 
 \section{Process Efficiency and Carbon Fixation}
 The light reactions provide temporary batteries (ATP and NADPH). However, the plant needs long-term storage, which is accomplished in the next stage.
 
 \subsection{The Assembly Line: The Calvin Cycle}
-To an engineer, the Calvin cycle is an isothermal (constant temperature), continuous-flow chemical reactor. It does not need light to function. Instead, it takes the ATP and NADPH batteries produced by the circuit and uses them as power to capture carbon dioxide ($CO_2$) from the air. It stitches the $CO_2$ together to build complex sugars \cite{anderssonCatalysisRegulationRubisco2008}. 
+To an engineer, the Calvin cycle is an isothermal (constant temperature), continuous-flow chemical reactor. It does not need light to function. Instead, it takes the ATP and NADPH batteries produced by the circuit and uses them as power to capture carbon dioxide ($CO_2$) from the air. It stitches the $CO_2$ together to build complex sugars \cite{bensonFollowingPathCarbon2002}. 
 
-This process relies heavily on an enzyme called RuBisCO. While important, RuBisCO is famously slow and inefficient, sometimes grabbing oxygen by mistake instead of $CO_2$, which wastes energy \cite{ruhleTabulatedValuesShockley2016}. It is a slow assembly line, trading speed for the ability to build incredibly dense and stable fuel at normal outdoor temperatures.
+This process relies heavily on an enzyme called RuBisCO. While important, RuBisCO is famously slow and inefficient, sometimes grabbing oxygen by mistake instead of $CO_2$, which wastes energy \cite{anderssonCatalysisRegulationRubisco2008}. It is a slow assembly line, trading speed for the ability to build incredibly dense and stable fuel at normal outdoor temperatures.
 
 \subsection{Calculating the Efficiency Limits}
-In engineering, we measure how much input energy from the sun is actually converted into useful output energy. For standard silicon solar cells, physics dictates a hard theoretical limit called the Shockley-Queisser limit, which caps the maximum theoretical efficiency at about 33.7\% \cite{zhuImprovingPhotosyntheticEfficiency2010}.
+In engineering, we measure how much input energy from the sun is actually converted into useful output energy. For standard silicon solar cells, physics dictates a hard theoretical limit called the Shockley-Queisser limit, which caps the maximum theoretical efficiency at about 33.7\% \cite{ruhleTabulatedValuesShockley2016}.
 
 For natural photosynthesis, the overall energy efficiency ($\eta$) can be defined simply as:
 
@@ -127,7 +127,7 @@ For natural photosynthesis, the overall energy efficiency ($\eta$) can be define
 \label{eq:efficiency}
 \end{equation}
 
-While plants are extremely clever, their overall efficiency is surprisingly low. Plants only absorb a fraction of the color spectrum (reflecting green light), lose energy as heat, and consume energy just to keep their cells alive. Although the theoretical maximum biological efficiency is around 11\%, most plants in the real world only convert 1\% to 2\% of the sun's energy into stored biomass \cite{gratzelPhotoelectrochemicalCells2001}.
+While plants are extremely clever, their overall efficiency is surprisingly low. Plants only absorb a fraction of the color spectrum (reflecting green light), lose energy as heat, and consume energy just to keep their cells alive. Although the theoretical maximum biological efficiency is around 11\%, most plants in the real world only convert 1\% to 2\% of the sun's energy into stored biomass \cite{zhuImprovingPhotosyntheticEfficiency2010}.
 
 % --- BILD-PLATZHALTER 3 (ZWEISPALTIG) ---
 \begin{figure*}[htbp]
@@ -182,19 +182,19 @@ E_{cb} < E(H^+/H_2) \quad \text{and} \quad E_{vb} > E(O_2/H_2O)
 Because fulfilling all these criteria with a single material is nearly impossible, modern artificial leaves utilize a "tandem" architecture. By layering two different semiconductors (e.g., a top cell absorbing high-energy blue light and a bottom cell capturing low-energy red light), engineers mimic the biological Z-scheme. This splits the heavy voltage requirement across two synchronized absorbers while maintaining a high overall solar-to-hydrogen (STH) efficiency.
 
 \subsection{Beating Nature's Efficiency}
-By bypassing the slow carbon-fixation entirely, these "Artificial Leaves" are incredibly fast. A modern artificial tandem-cell (a cell with two absorbing layers, mimicking the biological Z-scheme) is specifically tuned to capture a much broader range of the solar spectrum than green plants. Because they skip the metabolic overhead needed to keep cells alive, bionic engineering systems have already achieved solar-to-hydrogen efficiencies exceeding 10\% to 15\%, massively outperforming nature \cite{PLATZHALTER_12}.
+By bypassing the slow carbon-fixation entirely, these "Artificial Leaves" are incredibly fast. A modern artificial tandem-cell (a cell with two absorbing layers, mimicking the biological Z-scheme) is specifically tuned to capture a much broader range of the solar spectrum than green plants. Because they skip the metabolic overhead needed to keep cells alive, bionic engineering systems have already achieved solar-to-hydrogen efficiencies exceeding 10\% to 15\%, massively outperforming nature \cite{gratzelPhotoelectrochemicalCells2001}.
 
 \subsection{Balance of Plant: Reactor Design and Gas Separation}
 While demonstrating laboratory-scale tandem PECs is mathematically and chemically feasible, bridging the gap to macro-scale energy grids involves significant complex "Balance of Plant" (BOP) engineering. If an artificial leaf module creates both oxygen and hydrogen in the same liquid reservoir, it creates an explosive stoichiometric mixture. 
 
-To prevent this, commercial-scale PEC systems require advanced ion-exchange membranes (comparable to the biological thylakoid membrane). These membranes must allow the rapid transfer of protons ($H^+$) between the anode and cathode to complete the electrical circuit while strictly blocking gas molecules from crossing over. The electrical resistance (ohmic loss) introduced by these membranes, coupled with the energetic cost of continuously pumping water and pressurizing the captured $H_2$ gas for storage, represents the next primary hurdle for Electrical Energy Systems engineers \cite{PLATZHALTER_12}. Optimization of the reactor geometry to minimize these systemic losses is essential to keep the Levelized Cost of Energy (LCOE) for green hydrogen competitive with fossil fuels.
+To prevent this, commercial-scale PEC systems require advanced ion-exchange membranes (comparable to the biological thylakoid membrane). These membranes must allow the rapid transfer of protons ($H^+$) between the anode and cathode to complete the electrical circuit while strictly blocking gas molecules from crossing over. The electrical resistance (ohmic loss) introduced by these membranes, coupled with the energetic cost of continuously pumping water and pressurizing the captured $H_2$ gas for storage, represents the next primary hurdle for Electrical Energy Systems engineers. Optimization of the reactor geometry to minimize these systemic losses is essential to keep the Levelized Cost of Energy (LCOE) for green hydrogen competitive with fossil fuels.
 
 \section{Conclusion and Future Outlook}
 This paper demonstrates that the biological mechanisms of photosynthesis operate on highly logical, technical principles. A leaf is not magic; it utilizes physical funneling (FRET) for light harvesting, builds a DC circuit using solar-powered voltage boosts, and harnesses electrical gradients to spin mechanical nano-motors. 
 
 While plant efficiency is constrained by biology, these mechanisms provide the ultimate blueprint for engineers. The transition to artificial photosynthesis, particularly through photoelectrochemical cells, allows us to replicate nature's successes to produce clean hydrogen fuel. 
 
-However, major engineering challenges remain before these artificial systems can power our cities. Future research must focus on replacing expensive catalysts like platinum with cheaper, widely available materials. Furthermore, technical components must be designed to resist corrosion in water over many years \cite{PLATZHALTER_13}. If these hurdles are overcome, artificial photosynthesis holds the key to solving the global energy storage dilemma, providing a clean, sustainable fuel cycle inspired completely by leaves.
+However, major engineering challenges remain before these artificial systems can power our cities. Future research must focus on replacing expensive catalysts like platinum with cheaper, widely available materials. Furthermore, technical components must be designed to resist corrosion in water over many years \cite{lewisResearchOpportunitiesAdvance2016}. If these hurdles are overcome, artificial photosynthesis holds the key to solving the global energy storage dilemma, providing a clean, sustainable fuel cycle inspired completely by leaves.
 
 % Temporäres manuelles Verzeichnis
 
