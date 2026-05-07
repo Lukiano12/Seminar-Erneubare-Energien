@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.4)  7 MAY 2026 09:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.4)  7 MAY 2026 09:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -255,20 +255,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (Seminar_Paper.aux)
 \openout1 = `Seminar_Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 -- Lines per column: 56 (exact).
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -290,19 +290,19 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
 <images/funnel.png, id=1, 1678.27pt x 944.52875pt>
 File: images/funnel.png Graphic file (type png)
 <use images/funnel.png>
-Package pdftex.def Info: images/funnel.png  used on input line 67.
+Package pdftex.def Info: images/funnel.png  used on input line 64.
 (pdftex.def)             Requested size: 361.19843pt x 203.27148pt.
 
 
@@ -314,7 +314,7 @@ Package pdftex.def Info: images/funnel.png  used on input line 67.
 <images/circuit.png, id=16, 1541.76pt x 1027.84pt>
 File: images/circuit.png Graphic file (type png)
 <use images/circuit.png>
-Package pdftex.def Info: images/circuit.png  used on input line 95.
+Package pdftex.def Info: images/circuit.png  used on input line 92.
 (pdftex.def)             Requested size: 490.19843pt x 326.79823pt.
 
 
@@ -323,13 +323,13 @@ Package pdftex.def Info: images/circuit.png  used on input line 95.
 <images/efficiency.png, id=22, 1541.76pt x 1027.84pt>
 File: images/efficiency.png Graphic file (type png)
 <use images/efficiency.png>
-Package pdftex.def Info: images/efficiency.png  used on input line 135.
+Package pdftex.def Info: images/efficiency.png  used on input line 132.
 (pdftex.def)             Requested size: 464.39685pt x 309.59338pt.
 
 
 [3 <./images/circuit.png (PNG copy)>]
 
-LaTeX Warning: Citation `PLATZHALTER_13' on page 4 undefined on input line 173.
+LaTeX Warning: Citation `PLATZHALTER_13' on page 4 undefined on input line 170.
 
 
 
@@ -368,15 +368,15 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4321 strings out of 473682
- 69103 string characters out of 5719692
- 480680 words of memory out of 5000000
- 27359 multiletter control sequences out of 15000+600000
- 599972 words of font info for 112 fonts, out of 8000000 for 9000
+ 4319 strings out of 473682
+ 69084 string characters out of 5719692
+ 479680 words of memory out of 5000000
+ 27358 multiletter control sequences out of 15000+600000
+ 598387 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,940b,309s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Seminar_Paper.pdf (6 pages, 5839007 bytes).
+Output written on Seminar_Paper.pdf (6 pages, 5838967 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
