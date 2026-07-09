@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.4)  7 MAY 2026 12:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.4)  9 JUL 2026 21:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -429,31 +429,35 @@ Package pdftex.def Info: images/funnel.png  used on input line 67.
 
 ]
 
-<images/circuit.png, id=105, 1541.76pt x 1027.84pt>
+<images/circuit.png, id=105, 1156.32pt x 770.88pt>
 File: images/circuit.png Graphic file (type png)
 <use images/circuit.png>
 Package pdftex.def Info: images/circuit.png  used on input line 95.
-(pdftex.def)             Requested size: 490.19843pt x 326.79823pt.
+(pdftex.def)             Requested size: 490.19843pt x 326.7904pt.
+<images/zscheme.png, id=109, 238.7319pt x 110.814pt>
+File: images/zscheme.png Graphic file (type png)
+<use images/zscheme.png>
+Package pdftex.def Info: images/zscheme.png  used on input line 110.
+(pdftex.def)             Requested size: 361.19843pt x 167.66795pt.
 
 
-[2 <./images/funnel.png (PNG copy)>]
-
-<images/efficiency.png, id=125, 1541.76pt x 1027.84pt>
+[2 <./images/funnel.png (PNG copy)>] [3 <./images/circuit.png> <./images/zscheme.png>]
+<images/efficiency.png, id=137, 1156.32pt x 770.88pt>
 File: images/efficiency.png Graphic file (type png)
 <use images/efficiency.png>
-Package pdftex.def Info: images/efficiency.png  used on input line 135.
+Package pdftex.def Info: images/efficiency.png  used on input line 144.
 (pdftex.def)             Requested size: 464.39685pt x 309.59338pt.
 
 
-[3 <./images/circuit.png (PNG copy)>]
+
+
+[4]
 
 
 
-[4 <./images/efficiency.png (PNG copy)>]
+[5 <./images/efficiency.png>] (Seminar_Paper.bbl
 
-(Seminar_Paper.bbl
-
-[5])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -467,11 +471,7 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-
-
-[6
-
-] (Seminar_Paper.aux)
+[6] (Seminar_Paper.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
@@ -480,17 +480,17 @@ Package rerunfilecheck Info: File `Seminar_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: 8E5B5C4308181B28D4DB5C2B275B5654;4131.
  ) 
 Here is how much of TeX's memory you used:
- 11464 strings out of 473682
- 180701 string characters out of 5719692
- 599899 words of memory out of 5000000
- 34350 multiletter control sequences out of 15000+600000
+ 11474 strings out of 473682
+ 180952 string characters out of 5719692
+ 600233 words of memory out of 5000000
+ 34358 multiletter control sequences out of 15000+600000
  597280 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,940b,593s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,940b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Seminar_Paper.pdf (6 pages, 5857836 bytes).
+Output written on Seminar_Paper.pdf (6 pages, 4804837 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

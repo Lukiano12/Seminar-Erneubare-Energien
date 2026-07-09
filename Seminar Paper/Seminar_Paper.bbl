@@ -56,6 +56,11 @@ W.~A. Cramer, H.~Zhang, J.~Yan, G.~Kurisu, and J.~L. Smith, ``Transmembrane
 N.~Nelson and C.~F. Yocum, ``Structure and function of photosystems {{I}} and
   {{II}},'' \emph{Annu. Rev. Plant Biol.}, vol.~57, no.~1, pp. 521--565, 2006.
 
+\bibitem{qiReviewTiO2basedZscheme2017}
+K.~Qi, B.~Cheng, J.~Yu, and W.~Ho, ``A review on {{TiO2-based Z-scheme}}
+  photocatalysts,'' \emph{Chinese Journal of Catalysis}, vol.~38, no.~12, pp.
+  1936--1955, 2017.
+
 \bibitem{jungeATPSynthase2015}
 W.~Junge and N.~Nelson, ``{{ATP}} synthase,'' \emph{Annual review of
   biochemistry}, vol.~84, no.~1, pp. 631--657, 2015.
@@ -88,8 +93,10 @@ D.~G. Nocera, ``The artificial leaf,'' \emph{Accounts of chemical research},
   vol.~45, no.~5, pp. 767--776, 2012.
 
 \bibitem{gratzelPhotoelectrochemicalCells2001}
-M.~Gr{\"a}tzel, ``Photoelectrochemical cells,'' \emph{nature}, vol. 414, no.
-  6861, pp. 338--344, 2001.
+S.~K. Karuturi, H.~Shen, A.~Sharma, F.~J. Beck, P.~Varadhan, T.~Duong, P.~R.
+  Narangari, D.~Zhang, Y.~Wan, and J.-H. He, ``Over 17\% efficiency stand-alone
+  solar water splitting enabled by perovskite-silicon tandem absorbers,''
+  \emph{Advanced Energy Materials}, vol.~10, no.~28, p. 2000772, 2020.
 
 \bibitem{lewisResearchOpportunitiesAdvance2016}
 N.~S. Lewis, ``Research opportunities to advance solar energy utilization,''
